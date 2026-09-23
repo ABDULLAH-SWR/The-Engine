@@ -6,8 +6,8 @@
 	int main(int argc, char** argv) {
 		Engine::Log::init();
 		
-		ENGINE_CORE_ERROR("Error on line 32!");
-		int a=5;
+		ENGINE_CORE_ERROR("Error on line 41!");
+		int a=3;
 		ENGINE_INFO("Solved var={0}",a);
 
 
